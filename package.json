@@ -6,14 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "animejs": "^3.2.2",
-    "vue": "^3.4.21"
+    "vue": "^3.4.27"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.0.4",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "gh-pages": "^6.1.1",
     "vite": "^5.2.0"
   }
 }
